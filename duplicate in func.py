@@ -1,13 +1,15 @@
-a=["Delhi", "Delhi", "Mumbai", "Mumbai", "Delhi", "Chennai", 'Chennai']
-i=0
-r=[]
-c=0
-while i<len(a):
-    if a[i] not in r:
-        c=c+1
-        r.append(a[i])
-    i=i+1
-print(r)
+def add():
+    a=["Delhi", "Delhi", "Mumbai", "Mumbai", "Delhi", "Chennai", 'Chennai']
+    i=0
+    r=[]
+    c=0
+    while i<len(a):
+        if a[i] not in r:
+            c=c+1
+            r.append(a[i])
+        i=i+1
+    print(r)
+add()
 
 
 
