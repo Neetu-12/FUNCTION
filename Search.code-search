@@ -1,5 +1,0 @@
-# Query: 
-# Flags: CaseSensitive WordMatch
-# ContextLines: 1
-
-def sum (a,b)
